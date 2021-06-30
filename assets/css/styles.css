@@ -1,0 +1,23 @@
+/* Navbar */
+
+nav{
+    background-color: #fbfafb;
+}
+
+
+/* creamos la clase navbar brand para modificar la M */
+.navbar-brand{
+    font-size: 40px;
+    font-family: "Oswald";
+    font-weight:bold;
+}
+
+
+/* Hero Section */
+/* #Hero-Section{
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+} */
