@@ -1,6 +1,7 @@
 body{
     background-color: black;
 }
+/* navBar */
 nav{
     background-color:transparent;
 }
@@ -9,10 +10,10 @@ nav{
     font-family: 'Oswald', sans-serif;
     font-weight:bold;
 }
+/* Carrousel */
 header h2{
     color:white;
     font-weight: 200;
-    
 }
 header p {
     color:white;
@@ -20,9 +21,26 @@ header p {
 }
 header i{
     color: white;
-    background-color: aqua;
+    background-color:  #17bdd1 ;
     padding: 0 144px 0 144px
 }
 hr{
-    background-color: aqua;
+    background-color:  #17bdd1 ;
+}
+/* Card Deck */
+h3{
+    color:white;
+    font-weight: 200;
+    text-align: center;
+
+}
+.card img{
+    width: 253px;
+    height: 168px;
+}
+.card-body{
+    background-color:  #17bdd1 ;
+}
+.card-title{
+    color: white;
 }
