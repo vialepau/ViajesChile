@@ -22,6 +22,7 @@ header p {
 header i{
     color: white;
     background-color:  #17bdd1 ;
+    max-width: 100%;
     padding: 0 144px 0 144px
 }
 hr{
@@ -32,15 +33,16 @@ h3{
     color:white;
     font-weight: 200;
     text-align: center;
-
+}
+.card-title{
+    color: white;
 }
 .card img{
-    width: 253px;
+    max-width: 100%;
+    /* width: 253px; */
     height: 168px;
 }
 .card-body{
     background-color:  #17bdd1 ;
 }
-.card-title{
-    color: white;
-}
+

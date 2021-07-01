@@ -84,13 +84,14 @@
   </div>
   <!-- seccion Presentacion, sin vista en movil -->
   <header>
-    <section class="container text-center d-none d-sm-block my-5">
+    <!-- error a w 1184px -->
+    <section class="container text-center d-none d-md-block my-5">
       <h2 class="my-4">¿Quienes Somos?</h2>
 
       <hr>
 
       <div class="row">
-        <div class="col-md-4">
+        <div class="col 12 col-md-4">
           <i class="fas fa-plane fa-3x"></i>
           <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing
             elit. Esse, eos perspiciatis qui consequuntur sint ducimus itaque
@@ -124,50 +125,87 @@
         </div>
       </div>
     </section>
-    <section class="container">
-      <div>
-        <h3 class="my-4 pt-5">Destacados</h3>
-        <hr>
-      </div>
+  </header>
+  <!-- Seccion Destacados con 4 tarjetas con imagenes -->
+  <!-- falta egular tamaño en movil y desde w 975px -->
+  <section class="container">
+    <div>
+      <h3 class="my-4 pt-5">Destacados</h3>
+      <hr>
+    </div>
+    <div class="row">
       <div class="card-deck">
-        <div class="card">
-          <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+        <div class="card col-12 col-sm-3 px-0">
+          <img src="./assets/img/card1.jpg" class="card-img-top d-block" alt="...">
           <div class="card-body">
             <h5 class="card-title">Sagittis aliquam</h5>
-            <p class="card-text">Cursus leo himenaeos netus nibh etiam nisi sem dictumst dignissim taciti, conubia non quis porta platea
-               tristique consequat velit metus, commodo ad ultrices nam dapibus turpis egestas orci enim.</p>
+            <p class="card-text">Cursus leo himenaeos netus nibh etiam nisi sem dictumst dignissim taciti, conubia non
+              quis porta platea
+              tristique consequat velit metus, commodo ad ultrices nam dapibus turpis egestas orci enim.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-12 col-sm-3 px-0 ">
           <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Gravida nisi</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit, habitasse pharetra conubia et est torquent,
-               lacinia augue ad sapien erat mus. In vel rhoncus pellentesque commodo at varius, ullamcorper platea cras inceptos luctus,
-                litora nunc nam justo ornare.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing elit, habitasse pharetra conubia et
+              est torquent,
+              lacinia augue ad sapien erat mus. In vel rhoncus pellentesque commodo at varius, ullamcorper platea cras
+              inceptos luctus,
+              litora nunc nam justo ornare.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-12 col-sm-3 px-0 ">
           <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Facilisi condimentum</h5>
-            <p class="card-text">Lacus convallis nec blandit potenti scelerisque nullam malesuada vulputate odio aliquet,
-               tempor gravida diam sapien aenean porttitor nibh urna sollicitudin viverra, per tincidunt iaculis luctus ligula
-                ultrices justo nisl ut. Porttitor bibendum metus.</p>
+            <p class="card-text">Lacus convallis nec blandit potenti scelerisque nullam malesuada vulputate odio
+              aliquet,
+              tempor gravida diam sapien aenean porttitor nibh urna sollicitudin viverra, per tincidunt iaculis luctus
+              ligula
+              ultrices justo nisl ut. Porttitor bibendum metus.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-12 col-sm-3 px-0 ">
           <img src="./assets/img/card4 - copia.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Quam praesent</h5>
-            <p class="card-text">Conubia a aptent senectus turpis taciti vitae sapien morbi, torquent netus leo ut tincidunt nisl
-               cursus molestie, luctus posuere ligula platea nam tempor aliquam. Et euismod taciti facilisis donec primis facilisi
-                duis in, diam venenatis vitae.</p>
+            <p class="card-text">Conubia a aptent senectus turpis taciti vitae sapien morbi, torquent netus leo ut
+              tincidunt nisl
+              cursus molestie, luctus posuere ligula platea nam tempor aliquam. Et euismod taciti facilisis donec
+              primis facilisi
+              duis in, diam venenatis vitae.</p>
           </div>
         </div>
       </div>
-    </section>
-  </header>
+    </div>
+  </section>
+  <section id="contacto" class="container text-center py-5">
+    <div>
+      <h3 class="my-4 pt-5">Contacto</h3>
+      <hr>
+    </div>
+    <div class="typeform-widget" data-url="https://form.typeform.com/to/vsKgY2wK?typeform-medium=embed-snippet"
+      style="width: 100%; height: 500px;"></div>
+    <script> (function () {
+        var qs, js, q, s,
+        d = document,
+        gi = d.getElementById,
+        ce = d.createElement,
+        gt = d.getElementsByTagName,
+        id = "typef_orm",
+        b = "https://embed.typeform.com/";
+        if (!gi.call(d, id)) {
+          js = ce.call(d, "script");
+          js.id = id; js.src = b + "embed.js";
+          q = gt.call(d, "script")[0];
+          q.parentNode.insertBefore(js, q)
+        }
+      })()</script>
+
+  </section>
+
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
