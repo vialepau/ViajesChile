@@ -45,4 +45,12 @@ h3{
 .card-body{
     background-color:  #17bdd1 ;
 }
+/* FOOTER */
+footer{
+    background-color: #17bdd1;
+}
+footer h2{
+    font-family: 'Oswald', sans-serif;
+
+}
 
