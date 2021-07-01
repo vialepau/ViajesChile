@@ -1,23 +1,28 @@
-/* Navbar */
-
-nav{
-    background-color: #fbfafb;
+body{
+    background-color: black;
 }
-
-
-/* creamos la clase navbar brand para modificar la M */
+nav{
+    background-color:transparent;
+}
 .navbar-brand{
-    font-size: 40px;
-    font-family: "Oswald";
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
     font-weight:bold;
 }
-
-
-/* Hero Section */
-/* #Hero-Section{
-    height:100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    position: relative;
-} */
+header h2{
+    color:white;
+    font-weight: 200;
+    
+}
+header p {
+    color:white;
+    text-align: left;
+}
+header i{
+    color: white;
+    background-color: aqua;
+    padding: 0 144px 0 144px
+}
+hr{
+    background-color: aqua;
+}
