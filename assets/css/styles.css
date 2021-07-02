@@ -3,7 +3,7 @@ body{
 }
 /* navBar */
 nav{
-    background-color:transparent;
+    background-color:#17bdd1;
 }
 .navbar-brand{
     font-size: 20px;
@@ -37,9 +37,11 @@ h3{
 .card-title{
     color: white;
 }
+/* .card{
+    height: 95;
+} */
 .card img{
     max-width: 100%;
-    /* width: 253px; */
     height: 168px;
 }
 .card-body{
