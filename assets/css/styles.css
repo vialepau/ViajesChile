@@ -3,7 +3,12 @@ body{
 }
 /* navBar */
 nav{
+    background-color: transparent;
+    transition: all 1s ease;
+}
+.bg-inverse{
     background-color:#17bdd1;
+    
 }
 .navbar-brand{
     font-size: 20px;
